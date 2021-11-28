@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
-/*vinay*/
+/*vinay.*/
 @RequestMapping("/")
 public class SampleController {
     @RequestMapping(value = "/getJson", method = RequestMethod.GET)
