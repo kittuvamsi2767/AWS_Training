@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mt</groupId>
-  <artifactId>maven-web-project</artifactId>
+  <artifactId>prod-maven-web-project</artifactId>
   <packaging>war</packaging>
   <version>1.1-SNAPSHOT</version>
   <name>Maven Web Project 1st November</name>
