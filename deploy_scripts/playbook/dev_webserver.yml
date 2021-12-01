@@ -1,0 +1,18 @@
+---
+# creating webserver in devlop environment
+- hosts: dev_webservers
+  user: webuser
+  become: yes
+  connection: ssh
+  tasks:
+     - name: INSTALL HTTPD
+       yum:
+         name:  httpd
+         state: present
+         update_cache: true
+
+     - name: START HTTPD
+       service:
+         name: httpd
+         state: started
+         
